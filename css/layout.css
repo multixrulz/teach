@@ -1,3 +1,25 @@
+@font-face {
+font-family: 'SiteFont';
+font-style: normal;
+font-weight: 800;
+src: url('/fonts/EncodeSans-Black.ttf');
+}
+
+@font-face {
+font-family: 'SiteFont';
+font-style: normal;
+font-weight: 400;
+src: url('/fonts/ABeeZee-Regular.ttf');
+}
+
+@font-face {
+font-family: 'SiteFont';
+font-style: italic;
+font-weight: 400;
+src: url('/fonts/ABeeZee-Italic.ttf');
+}
+
+
 /* reset */
 html, body {
 margin: 0;
@@ -7,7 +29,7 @@ padding: 0;
 
 body {
 background: #202020;
-font-family: "Sans";
+font-family: "SiteFont";
 font-size: 16px;
 }
 
@@ -21,7 +43,7 @@ padding: 0;
 
 #head {
 height: 7em;
-background: #006587;
+background: linear-gradient(-27deg, rgba(25,0,36,0.5) 0%, rgba(54,54,54,0.4) 35%, rgba(255,255,255,0) 100%), rgba(150,12,180,1);
 }
 #head p {
 position: absolute;
